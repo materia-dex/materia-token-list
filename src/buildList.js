@@ -8,7 +8,7 @@ const kovan = require('./tokens/kovan.json');
 module.exports = function buildList() {
   const parsed = version.split('.');
   return {
-    'name': 'Materia Default List',
+    'name': 'Materia',
     'timestamp': (new Date().toISOString()),
     'version': {
       'major': +parsed[ 0 ],
@@ -16,7 +16,7 @@ module.exports = function buildList() {
       'patch': +parsed[ 2 ]
     },
     'tags': {},
-    'logoURI': 'ipfs://QmNa8mQkrNKp1WEEeGjFezDmDeodkWRevGFN8JCV7b4Xir',
+    'logoURI': 'https://raw.githubusercontent.com/materia-dex/materia-token-list/master/src/assets/images/gil.png',
     'keywords': [
       'materia',
       'default'

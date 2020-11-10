@@ -1,13 +1,13 @@
 {
-  "name": "Materia Default List",
-  "timestamp": "2020-11-09T16:05:17.251Z",
+  "name": "Materia",
+  "timestamp": "2020-11-10T08:25:21.822Z",
   "version": {
     "major": 1,
     "minor": 5,
     "patch": 0
   },
   "tags": {},
-  "logoURI": "ipfs://QmNa8mQkrNKp1WEEeGjFezDmDeodkWRevGFN8JCV7b4Xir",
+  "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/src/assets/images/gil.png",
   "keywords": [
     "materia",
     "default"
