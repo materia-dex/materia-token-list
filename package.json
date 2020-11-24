@@ -1,5 +1,5 @@
 {
-  "name": "@materia/materia-token-list",
+  "name": "@materia-dex/materia-token-list",
   "version": "1.0.0",
   "description": "◦ The Materia default token list",
   "main": "build/materia-default.tokenlist.json",

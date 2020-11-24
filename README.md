@@ -1,7 +1,6 @@
 # @materia/materia-token-list
 
-[![Tests](https://github.com/materia-dex/token-lists/workflows/Tests/badge.svg)](https://github.com/materia-dex/materia-token-list/actions?query=workflow%3ATests)
-[![npm](https://img.shields.io/npm/v/@materia/materia-token-list)](https://unpkg.com/@materia/materia-token-list@latest/)
+[![npm](https://img.shields.io/npm/v/@materia-dex/materia-token-list)](https://unpkg.com/@materia-dex/materia-token-list@latest/)
 
 This NPM module and GitHub repo contains the default token list used in the Materia interface.
 
