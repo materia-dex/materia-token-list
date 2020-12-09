@@ -1,6 +1,6 @@
 {
   "name": "Materia",
-  "timestamp": "2020-12-09T13:36:20.112Z",
+  "timestamp": "2020-12-09T14:50:49.114Z",
   "version": {
     "major": 1,
     "minor": 0,
@@ -30,12 +30,20 @@
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1D4f770032A551D70c240D937a8e8cf19Ee37E7d/logo.png"
     },
     {
-      "name": "unified Stable Dollar",
+      "name": "Pitfall",
       "address": "0x3CF9679b78075054093E04bB27758A0b25c2BdBc",
-      "symbol": "uSD",
+      "symbol": "PIT",
       "decimals": 18,
       "chainId": 3,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x3CF9679b78075054093E04bB27758A0b25c2BdBc/logo.png"
+    },
+    {
+      "name": "unified Stable Dollar",
+      "address": "0xd50c463d643b9b9f29c3dccd14b219efd6cffcf6",
+      "symbol": "uSD",
+      "decimals": 18,
+      "chainId": 3,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xd50c463d643b9b9f29c3dccd14b219efd6cffcf6/logo.png"
     }
   ]
 }
