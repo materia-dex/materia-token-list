@@ -22,5 +22,13 @@
     "decimals": 18,
     "chainId": 3,
     "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1D4f770032A551D70c240D937a8e8cf19Ee37E7d/logo.png"
+  },
+  {
+    "name": "DaiItem",
+    "address": "0xfe6ccbd720bd2c14b92f587fc6248021d8dbc2e7",
+    "symbol": "IDAI",
+    "decimals": 18,
+    "chainId": 3,
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xfe6ccbd720bd2c14b92f587fc6248021d8dbc2e7/logo.png"
   }
 ]
