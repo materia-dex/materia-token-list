@@ -1,11 +1,11 @@
 [
   {
     "name": "unified Stable Dollar",
-    "address": "0xd50c463d643b9b9f29c3dccd14b219efd6cffcf6",
+    "address": "0x3CF9679b78075054093E04bB27758A0b25c2BdBc",
     "symbol": "uSD",
     "decimals": 18,
     "chainId": 3,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xd50c463d643b9b9f29c3dccd14b219efd6cffcf6/logo.png"
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x3CF9679b78075054093E04bB27758A0b25c2BdBc/logo.png"
   },
   {
     "name": "GIL",
