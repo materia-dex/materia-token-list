@@ -1,10 +1,10 @@
 {
   "name": "Materia",
-  "timestamp": "2020-12-09T18:31:07.295Z",
+  "timestamp": "2020-12-10T14:06:37.204Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 1
+    "patch": 2
   },
   "tags": {},
   "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/src/assets/images/gil.png",
@@ -36,6 +36,14 @@
       "decimals": 18,
       "chainId": 3,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xfe6ccbd720bd2c14b92f587fc6248021d8dbc2e7/logo.png"
+    },
+    {
+      "name": "EthereumItem",
+      "address": "0x0C0488a2e3f5FdEb482Bf5A76AB1ef27A3658101",
+      "symbol": "IETH",
+      "decimals": 18,
+      "chainId": 3,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0C0488a2e3f5FdEb482Bf5A76AB1ef27A3658101/logo.png"
     },
     {
       "name": "Pitfall",
