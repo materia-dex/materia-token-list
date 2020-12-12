@@ -43,7 +43,7 @@
     "name": "USD Coin",
     "address": "0x0d9c8723b343a8368bebe0b5e89273ff8d712e3c",
     "symbol": "USDC",
-    "decimals": 18,
+    "decimals": 6,
     "chainId": 3,
     "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0d9c8723b343a8368bebe0b5e89273ff8d712e3c/logo.png"
   }
