@@ -1,9 +1,9 @@
 {
   "name": "Materia",
-  "timestamp": "2020-12-12T16:52:50.523Z",
+  "timestamp": "2020-12-15T17:43:44.912Z",
   "version": {
     "major": 1,
-    "minor": 2,
+    "minor": 3,
     "patch": 0
   },
   "tags": {},
@@ -20,6 +20,14 @@
       "decimals": 18,
       "chainId": 1,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x44086035439E676c02D411880FcCb9837CE37c57/logo.png"
+    },
+    {
+      "name": "Dai",
+      "address": "0xc2118d4d90b274016cb7a54c03ef52e6c537d957",
+      "symbol": "DAI",
+      "decimals": 18,
+      "chainId": 3,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc2118d4d90b274016cb7a54c03ef52e6c537d957/logo.png"
     },
     {
       "name": "GIL",

@@ -46,5 +46,13 @@
     "decimals": 6,
     "chainId": 3,
     "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0d9c8723b343a8368bebe0b5e89273ff8d712e3c/logo.png"
+  },
+  {
+    "name": "Dai",
+    "address": "0xc2118d4d90b274016cb7a54c03ef52e6c537d957",
+    "symbol": "DAI",
+    "decimals": 18,
+    "chainId": 3,
+    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc2118d4d90b274016cb7a54c03ef52e6c537d957/logo.png"
   }
 ]
