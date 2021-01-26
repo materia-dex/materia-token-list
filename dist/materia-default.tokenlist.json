@@ -1,0 +1,243 @@
+{
+    "name": "Materia",
+    "keywords": [
+        "materia",
+        "default",
+        "token",
+        "list"
+    ],
+    "tags": {},
+    "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/logo.png",
+    "tokens": [
+        {
+            "address": "0x0C0488a2e3f5FdEb482Bf5A76AB1ef27A3658101",
+            "name": "EthereumItem",
+            "symbol": "IETH",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
+        },
+        {
+            "address": "0x7739140CBd618DfCAbD501B6B23A2eE3258970D7",
+            "name": "SEEDItem",
+            "symbol": "ISEED",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
+        },
+        {
+            "address": "0x0789783b0c59886BE5A134a8C8c1aF7519B6251c",
+            "name": "BeerTokenItem",
+            "symbol": "IBET",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
+        },
+        {
+            "address": "0xaC4c6277a754c82B48dB3616704a0eFB081d66ca",
+            "name": "Wrapped EtherIte",
+            "symbol": "IWETH",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
+        },
+        {
+            "address": "0xd51fae49F029806a72832e1166B41C228d848dbf",
+            "name": "unified Stable D",
+            "symbol": "IuSD",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
+        },
+        {
+            "address": "0x9996426839AEf97c97826a79fc8f57aB64BF8F5D",
+            "name": "EthereumItemItem",
+            "symbol": "IIETH",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
+        },
+        {
+            "address": "0x23F35f4cc1b06754AE9bB2454303B6b68AaE672b",
+            "name": "TetherItem",
+            "symbol": "ITUSD",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
+        },
+        {
+            "address": "0xE1a2843eA023690bA7123dbf5956b9616E033229",
+            "name": "USD CoinItem",
+            "symbol": "IUSDC",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
+        },
+        {
+            "address": "0xFe6cCBd720BD2c14b92F587fC6248021d8dBC2e7",
+            "name": "DaiItem",
+            "symbol": "IDAI",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
+        },
+        {
+            "address": "0xb9F903AbE38C3F2eDC769464A4e89eb8b2703333",
+            "name": "MateriaItem",
+            "symbol": "IMP",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
+        },
+        {
+            "address": "0x9325b8658116B43a389019e2b04Df6CE9F852605",
+            "name": "MateriaItem",
+            "symbol": "IMP",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
+        },
+        {
+            "address": "0xE3A68eF818a2F8308163CBe177fa78Cf8946DD84",
+            "name": "MateriaItem",
+            "symbol": "IMP",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
+        },
+        {
+            "address": "0x01631c6aedB4eFec67356f047Ea62fd9Cb31f503",
+            "name": "MateriaItem",
+            "symbol": "IMP",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
+        },
+        {
+            "address": "0x3482432ab1Da09E4cFFDB55753e1831d0d11C070",
+            "name": "MateriaItem",
+            "symbol": "IMP",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
+        },
+        {
+            "address": "0x0c7a6423DB4f9F0F451352BdA0371E57B6FBE520",
+            "name": "MateriaItem",
+            "symbol": "IMP",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
+        },
+        {
+            "address": "0x5a575a4Ca0583eac9eD04043f53E91674Fce8764",
+            "name": "MateriaItem",
+            "symbol": "IMP",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
+        },
+        {
+            "address": "0x51483387451aDaebD5786a97A2C299E220517e57",
+            "name": "MateriaItem",
+            "symbol": "IMP",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
+        },
+        {
+            "address": "0x97Eba24C45fA1A3375544696b5086550e45C5ac6",
+            "name": "MateriaItem",
+            "symbol": "IMP",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
+        },
+        {
+            "address": "0x716b556e32a9B33F14f3fD61E90b0b8C1B738972",
+            "name": "CompoundItem",
+            "symbol": "ICOMP",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
+        },
+        {
+            "address": "0x26b755127B8b01FA11830b39D904b2B1De2C7C1D",
+            "name": "Tether USDItem",
+            "symbol": "IUSDT",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
+        },
+        {
+            "address": "0xf2a16989B81898E5952A13714ae0d3dD81B346BD",
+            "name": "LIGItem",
+            "symbol": "ILIG",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
+        },
+        {
+            "address": "0x869F9C64ee957ad381aB9Af8Ac5F8a5d860138eE",
+            "name": "Fee on transfer",
+            "symbol": "IFOFT",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
+        },
+        {
+            "address": "0xEBAec7612bb9b3C877121c6BFc8F52Ef5f0bba4a",
+            "name": "USD CoinItem",
+            "symbol": "IUSDC",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
+        },
+        {
+            "address": "0x2160E351f5900F5Eaa978Ce3a7E579948937ff39",
+            "name": "ONZORSTItem",
+            "symbol": "IOZT",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
+        },
+        {
+            "address": "0x7C37C660f1e80CE454835C8AE6FB732C7B788cC2",
+            "name": "VIGLIACCOItem",
+            "symbol": "IVGL",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
+        },
+        {
+            "address": "0x21393a93c7D4202D0F8E9352056621306BB44adc",
+            "name": "VITTORIOSGARBIIt",
+            "symbol": "IVS",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
+        },
+        {
+            "address": "0x625232BaDE63F6029D93d71DcEfCCc8fC331EE83",
+            "name": "CLAUDIOBISIOItem",
+            "symbol": "ICB",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
+        },
+        {
+            "address": "0xcB5dF30886Ff66AB13F20BFeA589bA3a0FD53954",
+            "name": "MateriaItem",
+            "symbol": "Igil",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
+        }
+    ],
+    "version": {
+        "major": 1,
+        "minor": 0,
+        "patch": 0
+    },
+    "timestamp": "2021-01-26T16:47:02.595Z"
+}
