@@ -1,7 +1,5 @@
 # @materia/materia-token-list
 
-[![npm](https://img.shields.io/npm/v/@materia-dex/materia-token-list)](https://unpkg.com/@materia-dex/materia-token-list@latest/)
-
 This NPM module and GitHub repo contains the default token list used in the Materia interface.
 
 ## Adding a token
