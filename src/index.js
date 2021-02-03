@@ -21,6 +21,58 @@ function cleanPath(path) {
   }
 }
 
+function loadCurrentTokenList(path) {
+  try {
+    const rawTokenList = fs.readFileSync(path)
+    const tokenList = JSON.parse(rawTokenList)
+
+    return tokenList
+  } catch (e) {
+    return null
+  }
+}
+
+function areTokenListsEqual(actualTokenList, newTokenList) {
+  if (!actualTokenList) {
+    return false
+  }
+
+  tokenSorter = (tokenA, tokenB) => (tokenA.address > tokenB.address) ? 1 : ((tokenB.address > tokenA.address) ? -1 : 0)
+
+  actualTokenListTokens = actualTokenList.tokens.sort(tokenSorter)
+  newTokenListTokens = newTokenList.tokens.sort(tokenSorter)
+
+  listContainSameTokens = (actualTokenListTokens.length == newTokenListTokens.length) && actualTokenListTokens.every((token, index) => token.address == newTokenListTokens[index].address)
+  
+  return listContainSameTokens
+}
+
+function bumpTokenListVersion(version) {
+  if (!version) {
+    return { major: 1, minor: 0, patch: 0 }
+  }
+
+  maxMajorBuild = window.context.listMaxMajorBuild
+  maxMinorBuild = window.context.listMaxMinorBuild
+  maxPatchBuild = window.context.listMaxPatchBuild
+
+  if (version.patch == maxPatchBuild) {
+    version.patch = 0
+    version.minor += 1
+  }
+  if (version.minor == maxMinorBuild) {
+    version.minor = 0
+    version.major += 1
+  }
+  if (version.major >= maxMajorBuild) {
+    version.major = maxMajorBuild
+    version.minor = 0
+    version.patch = 0
+  }
+
+  return version
+}
+
 async function start() {
   await loadEnvironment()
   await loop()
@@ -28,10 +80,11 @@ async function start() {
 
 async function loop() {
   const distPath = path.resolve(__dirname, '../dist')
+  const tokenListPath = path.resolve(distPath, window.context.listNameJSON + '.json')
+  const actualTokenList = loadCurrentTokenList(tokenListPath)
   
-  cleanPath(distPath)
-
   const collections = await loadCollections()
+  const defaultTokens = window.context.collectionDefaultTokens;
   const tokenLists = {
     name: window
       .shortenWord('Materia', window.context.tokenListWordLimit)
@@ -50,15 +103,21 @@ async function loop() {
   }
 
   const addToTokenLists = function addToTokenLists(tokens) {
+    tokens = [...new Set([...defaultTokens, ...tokens])];
     tokenLists.tokens.push(...tokens)
   }
-  
+
   await Promise.all(collections.map(collection => elaborateCollection(collection, addToTokenLists)))
-  
-  const tokenListPath = path.resolve(distPath, window.context.listNameJSON + '.json')
-  
-  fs.writeFileSync(tokenListPath, JSON.stringify(tokenLists, null, 4))
-  
+
+  const updateTokenList = !areTokenListsEqual(actualTokenList, tokenLists)
+
+  if (updateTokenList) {
+    const actualTokenListVersion = actualTokenList ? actualTokenList.version : null
+    tokenLists.version = bumpTokenListVersion(actualTokenListVersion)
+    cleanPath(distPath)
+    fs.writeFileSync(tokenListPath, JSON.stringify(tokenLists, null, 4))
+  }
+
   window.context.loopTimeout && setTimeout(loop, window.context.loopTimeout)
 }
 
@@ -68,7 +127,7 @@ async function elaborateCollection(collection, callback) {
   if (!collection.items || Object.values(collection.items).length === 0) {
     return
   }
-  
+
   const cleanCollection = {
     name: window
       .shortenWord(collection.name, window.context.tokenListWordLimit)
@@ -90,7 +149,7 @@ async function elaborateCollection(collection, callback) {
     if (exceptFor.indexOf(window.web3.utils.toChecksumAddress(rawItem.address)) !== -1) {
       continue
     }
-    
+
     cleanCollection.tokens.push({
       address: rawItem.address,
       name: window
@@ -114,12 +173,12 @@ async function getLogoURI(element) {
     await window.AJAXRequest(element.trustWalletURI)
 
     element.image = element.trustWalletURI
-  } catch (e) {}
+  } catch (e) { }
   try {
     await window.AJAXRequest(element.image)
 
     return element.image
-  } catch (e) {}
+  } catch (e) { }
 
   return getDefaultLogoURI(element)
 }
@@ -146,35 +205,35 @@ async function loadEnvironment() {
       window.context.KnowledgeBaseABI,
       await window.blockchainCall(window.ethItemOrchestrator.methods.knowledgeBase)
     )
-  } catch (e) {}
+  } catch (e) { }
 
   try {
     window.currentEthItemFactory = window.newContract(
       window.context.IEthItemFactoryABI,
       await window.blockchainCall(window.ethItemOrchestrator.methods.factory)
     )
-  } catch (e) {}
+  } catch (e) { }
 
   try {
     window.currentEthItemERC20Wrapper = window.newContract(
       window.context.W20ABI,
       await window.blockchainCall(window.currentEthItemKnowledgeBase.methods.erc20Wrapper)
     )
-  } catch (e) {}
+  } catch (e) { }
 }
 
 async function loadCollections() {
   const map = {}
 
   Object.entries(window.context.ethItemFactoryEvents).forEach(it => (map[window.web3.utils.sha3(it[0])] = it[1]))
- 
+
   const topics = [Object.keys(map)]
   const address = await window.blockchainCall(window.ethItemOrchestrator.methods.factories)
   const collections = []
   const blocks = await window.loadBlockSearchTranches()
 
   const updateSubCollectionsPromise = function updateSubCollectionsPromise(subCollections) {
-    return new Promise(function(ok, ko) {
+    return new Promise(function (ok, ko) {
       collections.push(...subCollections)
       refreshCollectionData(subCollections)
         .then(ok)
@@ -210,7 +269,7 @@ async function loadCollections() {
   }
 
   await Promise.all(subCollectionsPromises)
-  
+
   return collections
 }
 
@@ -220,7 +279,7 @@ async function refreshCollectionData(collections) {
   for (const collection of collections) {
     promises.push(window.refreshSingleCollection(collection))
   }
-  
+
   await Promise.all(promises)
 }
 
