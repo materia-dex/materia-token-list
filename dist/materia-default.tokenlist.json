@@ -512,12 +512,20 @@
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9355372396e3F6daF13359B7b607a3374cc638e0/logo.png"
+        },
+        {
+            "address": "0xfe6ccbd720bd2c14b92f587fc6248021d8dbc2e7",
+            "name": "DaiItem",
+            "symbol": "IDAI",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
         }
     ],
     "version": {
         "major": 1,
-        "minor": 5,
+        "minor": 6,
         "patch": 0
     },
-    "timestamp": "2021-02-03T18:17:05.683Z"
+    "timestamp": "2021-02-04T14:48:04.264Z"
 }
