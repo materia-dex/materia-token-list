@@ -49,8 +49,8 @@ jobs:
     - name: Commit changes
       uses: EndBug/add-and-commit@v4
       with:
-        author_name: Mirco Ramundo
-        author_email: mramundo@outlook.it
+        author_name: Kyactus
+        author_email: materiadex@gmail.com
         message: "Build JSONs"
         add: " ./dist/*"
       env:
