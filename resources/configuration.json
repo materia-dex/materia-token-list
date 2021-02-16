@@ -7,6 +7,7 @@
     "NewWrappedERC20Created(address,uint256,address,address)": "W20ABI"
   },
   "ethItemAllowedAddresses": [
+    "0x651A6837457f1f7179a590deC647Ec5D647B8231",
     "0xC46abE9805c54107114e04bdb30F189434ccE2d3"
   ],
   "listNameJSON": "materia-default.tokenlist",
@@ -30,6 +31,14 @@
       "decimals": 18,
       "chainId": 1,
       "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/gil.png"
+    },
+    {
+      "address": "0x1D6316dbbE18b6E9B75AE064aA114FE7dC208eDC",
+      "name": "EthereumItem",
+      "symbol": "IETH",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
     },
     {
       "address": "0x44086035439E676c02D411880FcCb9837CE37c57",

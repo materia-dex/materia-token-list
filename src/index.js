@@ -103,11 +103,14 @@ async function loop() {
   }
 
   const addToTokenLists = function addToTokenLists(tokens) {
-    tokens = [...new Set([...defaultTokens, ...tokens])];
+    const tokenAddresses = tokenLists.tokens.map(token => token.address)
+    tokens = tokens.filter(token => !tokenAddresses.includes(token.address))
     tokenLists.tokens.push(...tokens)
   }
 
   await Promise.all(collections.map(collection => elaborateCollection(collection, addToTokenLists)))
+
+  addToTokenLists(defaultTokens)
 
   const updateTokenList = !areTokenListsEqual(actualTokenList, tokenLists)
 
