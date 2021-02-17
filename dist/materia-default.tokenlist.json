@@ -50,18 +50,18 @@
             "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
         },
         {
-            "address": "0x44086035439E676c02D411880FcCb9837CE37c57",
-            "name": "unified Stable Dollar",
-            "symbol": "uSD",
+            "address": "0x7C974104DF9dd7fb91205ab3D66d15AFf1049DE8",
+            "name": "Wrapped USD",
+            "symbol": "WUSD",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x44086035439E676c02D411880FcCb9837CE37c57/logo.png"
+            "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/wusd.png"
         }
     ],
     "version": {
         "major": 1,
-        "minor": 9,
+        "minor": 10,
         "patch": 0
     },
-    "timestamp": "2021-02-16T15:48:38.578Z"
+    "timestamp": "2021-02-17T15:12:31.474Z"
 }
