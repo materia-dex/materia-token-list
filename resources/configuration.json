@@ -7,7 +7,7 @@
     "NewWrappedERC20Created(address,uint256,address,address)": "W20ABI"
   },
   "ethItemAllowedAddresses": [
-    "0x651A6837457f1f7179a590deC647Ec5D647B8231",
+    "0x6ba2091f1f415867b02cCAD07876960e3aE926c2",
     "0xC46abE9805c54107114e04bdb30F189434ccE2d3"
   ],
   "listNameJSON": "materia-default.tokenlist",
