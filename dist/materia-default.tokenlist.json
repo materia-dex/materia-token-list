@@ -18,14 +18,6 @@
             "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/gil.png"
         },
         {
-            "address": "0x0C0488a2e3f5FdEb482Bf5A76AB1ef27A3658101",
-            "name": "EthereumItem",
-            "symbol": "IETH",
-            "decimals": 18,
-            "chainId": 3,
-            "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
-        },
-        {
             "address": "0x1D4f770032A551D70c240D937a8e8cf19Ee37E7d",
             "name": "Materia",
             "symbol": "GIL",
@@ -56,12 +48,20 @@
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/wusd.png"
+        },
+        {
+            "address": "0xEDf7dE64832b6D0998fE7E7D556A38005B994565",
+            "name": "EthereumItem",
+            "symbol": "IETH",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
         }
     ],
     "version": {
         "major": 1,
-        "minor": 10,
+        "minor": 11,
         "patch": 0
     },
-    "timestamp": "2021-02-17T15:12:31.474Z"
+    "timestamp": "2021-02-19T15:43:20.787Z"
 }
