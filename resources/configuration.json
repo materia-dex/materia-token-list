@@ -54,7 +54,7 @@
     },
     {
       "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-      "name": "USD Coin USDC",
+      "name": "USD Coin",
       "symbol": "USDC",
       "decimals": 6,
       "chainId": 1,
@@ -125,7 +125,7 @@
     },
     {
       "address": "0x0D9C8723B343A8368BebE0B5E89273fF8D712e3C",
-      "name": "USD Coin USDC",
+      "name": "USD Coin",
       "symbol": "USDC",
       "decimals": 6,
       "chainId": 3,

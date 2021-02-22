@@ -64,11 +64,11 @@ function bumpTokenListVersion(version) {
   }
 
   splittedVersion = newVersion.split('.')
-  
-  version = { 
-    major: parseInt(splittedVersion[0]), 
-    minor: parseInt(splittedVersion[1]), 
-    patch: parseInt(splittedVersion[2]) 
+
+  version = {
+    major: parseInt(splittedVersion[0]),
+    minor: parseInt(splittedVersion[1]),
+    patch: parseInt(splittedVersion[2])
   }
 
   return version
