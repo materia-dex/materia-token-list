@@ -18,6 +18,14 @@
             "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/gil.png"
         },
         {
+            "address": "0x0D9C8723B343A8368BebE0B5E89273fF8D712e3C",
+            "name": "USD Coin USDC",
+            "symbol": "USDC",
+            "decimals": 6,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_USDC.svg"
+        },
+        {
             "address": "0x1D4f770032A551D70c240D937a8e8cf19Ee37E7d",
             "name": "Materia",
             "symbol": "GIL",
@@ -34,12 +42,35 @@
             "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
         },
         {
+            "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+            "name": "Wrapped BTC",
+            "symbol": "WBTC",
+            "decimals": 8,
+            "chainId": 1
+        },
+        {
+            "address": "0x34612903db071e888a4dadcaa416d3ee263a87b9",
+            "name": "Items",
+            "symbol": "ARTE",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://assets.coingecko.com/coins/images/11720/thumb/Arte.png?1607332372"
+        },
+        {
             "address": "0x3CF9679b78075054093E04bB27758A0b25c2BdBc",
             "name": "Pitfall",
             "symbol": "PIT",
             "decimals": 18,
             "chainId": 3,
             "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
+        },
+        {
+            "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+            "name": "Dai Stablecoin",
+            "symbol": "DAI",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_DAI.svg"
         },
         {
             "address": "0x7C974104DF9dd7fb91205ab3D66d15AFf1049DE8",
@@ -50,18 +81,73 @@
             "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/wusd.png"
         },
         {
+            "address": "0x7a3428F1CBA2756aB9a6D672311ca6C8DcE65C6B",
+            "name": "USD Coin item",
+            "symbol": "iUSDC",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
+        },
+        {
+            "address": "0x7b123f53421b1bf8533339bfbdc7c98aa94163db",
+            "name": "dfohub",
+            "symbol": "BUIDL",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://assets.coingecko.com/coins/images/11131/thumb/buidllogo.png?1599577041"
+        },
+        {
+            "address": "0x9e78b8274e1d6a76a0dbbf90418894df27cbceb5",
+            "name": "Covenants",
+            "symbol": "UNIFI",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://assets.coingecko.com/coins/images/12258/thumb/Unifi.png?1598548933"
+        },
+        {
+            "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "name": "USD Coin USDC",
+            "symbol": "USDC",
+            "decimals": 6,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_USDC.svg"
+        },
+        {
+            "address": "0xBde8bB00A7eF67007A96945B3a3621177B615C44",
+            "name": "Wrapped BTC",
+            "symbol": "WBTC",
+            "decimals": 8,
+            "chainId": 3
+        },
+        {
+            "address": "0xE51a7641A2D62119458B38e074367D9bFA8a3916",
+            "name": "Materia item",
+            "symbol": "iGIL",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
+        },
+        {
             "address": "0xEDf7dE64832b6D0998fE7E7D556A38005B994565",
             "name": "EthereumItem",
             "symbol": "IETH",
             "decimals": 18,
             "chainId": 3,
             "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
+        },
+        {
+            "address": "0xc2118d4d90b274016cB7a54c03EF52E6c537D957",
+            "name": "Dai Stablecoin",
+            "symbol": "DAI",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_DAI.svg"
         }
     ],
     "version": {
-        "major": 1,
-        "minor": 11,
+        "major": 2,
+        "minor": 0,
         "patch": 0
     },
-    "timestamp": "2021-02-19T15:43:20.787Z"
+    "timestamp": "2021-02-22T14:36:19.904Z"
 }
