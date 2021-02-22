@@ -1,7 +1,9 @@
 require('dotenv').config()
 require('./utils')
+
 const fs = require('fs')
 const path = require('path')
+const versiony = require('versiony')
 
 window.context.blockchainConnectionString =
   window.context.blockchainConnectionString || process.env.BLOCKCHAIN_CONNECTION_STRING
@@ -43,31 +45,30 @@ function areTokenListsEqual(actualTokenList, newTokenList) {
   newTokenListTokens = newTokenList.tokens.sort(tokenSorter)
 
   listContainSameTokens = (actualTokenListTokens.length == newTokenListTokens.length) && actualTokenListTokens.every((token, index) => token.address == newTokenListTokens[index].address)
-  
+
   return listContainSameTokens
 }
 
 function bumpTokenListVersion(version) {
-  if (!version) {
-    return { major: 1, minor: 0, patch: 0 }
+  newVersion = versiony
+    .version('1.0.0')
+    .get()
+
+  if (version) {
+    newVersion = versiony
+      .version(`${version.major}.${version.minor}.${version.patch}`)
+      .major()
+      .minor(0)
+      .patch(0)
+      .get()
   }
 
-  maxMajorBuild = window.context.listMaxMajorBuild
-  maxMinorBuild = window.context.listMaxMinorBuild
-  maxPatchBuild = window.context.listMaxPatchBuild
-
-  if (version.patch == maxPatchBuild) {
-    version.patch = 0
-    version.minor += 1
-  }
-  if (version.minor == maxMinorBuild) {
-    version.minor = 0
-    version.major += 1
-  }
-  if (version.major >= maxMajorBuild) {
-    version.major = maxMajorBuild
-    version.minor = 0
-    version.patch = 0
+  splittedVersion = newVersion.split('.')
+  
+  version = { 
+    major: parseInt(splittedVersion[0]), 
+    minor: parseInt(splittedVersion[1]), 
+    patch: parseInt(splittedVersion[2]) 
   }
 
   return version
@@ -82,7 +83,7 @@ async function loop() {
   const distPath = path.resolve(__dirname, '../dist')
   const tokenListPath = path.resolve(distPath, window.context.listNameJSON + '.json')
   const actualTokenList = loadCurrentTokenList(tokenListPath)
-  
+
   const collections = await loadCollections()
   const defaultTokens = window.context.collectionDefaultTokens;
   const tokenLists = {

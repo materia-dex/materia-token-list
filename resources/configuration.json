@@ -7,14 +7,10 @@
     "NewWrappedERC20Created(address,uint256,address,address)": "W20ABI"
   },
   "ethItemAllowedAddresses": [
-    "0x6ba2091f1f415867b02cCAD07876960e3aE926c2",
     "0xC46abE9805c54107114e04bdb30F189434ccE2d3"
   ],
   "listNameJSON": "materia-default.tokenlist",
   "listURITemplate": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/dist/{0}.json",
-  "listMaxMajorBuild": 100,
-  "listMaxMinorBuild": 100,
-  "listMaxPatchBuild": 0,
   "logoURITemplate": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/{0}-{1}.png",
   "collectionLogoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/logo.png",
   "collectionKeywords": [
@@ -49,6 +45,53 @@
       "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/wusd.png"
     },
     {
+      "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+      "name": "Dai Stablecoin",
+      "symbol": "DAI",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_DAI.svg"
+    },
+    {
+      "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "name": "USD Coin USDC",
+      "symbol": "USDC",
+      "decimals": 6,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_USDC.svg"
+    },
+    {
+      "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+      "name": "Wrapped BTC",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "chainId": 1
+    },
+    {
+      "address": "0x7b123f53421b1bf8533339bfbdc7c98aa94163db",
+      "name": "dfohub",
+      "symbol": "BUIDL",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://assets.coingecko.com/coins/images/11131/thumb/buidllogo.png?1599577041"
+    },
+    {
+      "address": "0x9e78b8274e1d6a76a0dbbf90418894df27cbceb5",
+      "name": "Covenants",
+      "symbol": "UNIFI",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://assets.coingecko.com/coins/images/12258/thumb/Unifi.png?1598548933"
+    },
+    {
+      "address": "0x34612903db071e888a4dadcaa416d3ee263a87b9",
+      "name": "Items",
+      "symbol": "ARTE",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://assets.coingecko.com/coins/images/11720/thumb/Arte.png?1607332372"
+    },
+    {
       "address": "0x1D4f770032A551D70c240D937a8e8cf19Ee37E7d",
       "name": "Materia",
       "symbol": "GIL",
@@ -71,13 +114,36 @@
       "decimals": 18,
       "chainId": 3,
       "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
+    },
+    {
+      "address": "0xc2118d4d90b274016cB7a54c03EF52E6c537D957",
+      "name": "Dai Stablecoin",
+      "symbol": "DAI",
+      "decimals": 18,
+      "chainId": 3,
+      "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_DAI.svg"
+    },
+    {
+      "address": "0x0D9C8723B343A8368BebE0B5E89273fF8D712e3C",
+      "name": "USD Coin USDC",
+      "symbol": "USDC",
+      "decimals": 6,
+      "chainId": 3,
+      "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_USDC.svg"
+    },
+    {
+      "address": "0xBde8bB00A7eF67007A96945B3a3621177B615C44",
+      "name": "Wrapped BTC",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "chainId": 3
     }
   ],
   "deploySearchStart": "11092976",
   "deploySearchStartRopsten": "8900000",
   "blockSearchLimit": 50000,
   "tokenListWordLimit": 16,
-  "ethItemOrchestratorAddress": "0x12329b2F9e52C5D3422D6E6C026AA9D5b00CC075",
+  "ethItemOrchestratorAddress": "0x86Ab19d36c38aa81f092eAb4b1a8a4B553612465",
   "ethItemOrchestratorAddressRopsten": "0xf785abac1b79ccb53052799d6b84d6299d47a05a",
   "trustwalletImgURLTemplate": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/{0}/logo.png",
   "ipfsHost": "https://ipfs.infura.io:5001/api/v0/",

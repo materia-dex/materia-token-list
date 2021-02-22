@@ -25,6 +25,7 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "request": "^2.88.2",
+    "versiony": "^2.0.1",
     "web3": "^1.3.0"
   }
 }
