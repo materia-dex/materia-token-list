@@ -65,6 +65,14 @@
             "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
         },
         {
+            "address": "0x4d69a1d482ff9b89600c1DD9e535538957Cd8E29",
+            "name": "Dai Stablecoin i",
+            "symbol": "iDAI",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png"
+        },
+        {
             "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
             "name": "Dai Stablecoin",
             "symbol": "DAI",
@@ -145,9 +153,9 @@
         }
     ],
     "version": {
-        "major": 3,
+        "major": 4,
         "minor": 0,
         "patch": 0
     },
-    "timestamp": "2021-02-22T14:50:05.591Z"
+    "timestamp": "2021-02-23T22:46:12.287Z"
 }
