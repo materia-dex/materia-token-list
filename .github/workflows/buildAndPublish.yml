@@ -7,9 +7,6 @@ on:
   
   schedule:
    - cron: '*/15 * * * *'
-  
-  # manual trigger
-  # workflow_dispatch:
 
 jobs:
   buildAndPublish:
@@ -55,3 +52,22 @@ jobs:
         add: " ./dist/*"
       env:
         GITHUB_TOKEN: ${{ secrets.COMMIT_AUTH_TOKEN }}
+
+      - name: Pin to IPFS
+        id: upload
+        uses: anantaramdas/ipfs-pinata-deploy-action@39bbda1ce1fe24c69c6f57861b8038278d53688d
+        with:
+          pin-name: Materia Token List ${{ needs.bump_version.outputs.new_tag }}
+          path: './dist/materia-default.tokenlist.json'
+          pinata-api-key: ${{ secrets.PINATA_API_KEY }}
+          pinata-secret-api-key: ${{ secrets.PINATA_API_SECRET_KEY }}
+
+      - name: Update DNS with new IPFS hash
+        env:
+          CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
+          RECORD_DOMAIN: 'materia.exchange'
+          RECORD_NAME: '_dnslink.list'
+          CLOUDFLARE_ZONE_ID: ${{ secrets.CLOUDFLARE_ZONE_ID }}
+        uses: textileio/cloudflare-update-dnslink@0fe7b7a1ffc865db3a4da9773f0f987447ad5848
+        with:
+          cid: ${{ steps.upload.outputs.hash }}
