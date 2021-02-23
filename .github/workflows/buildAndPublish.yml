@@ -14,7 +14,7 @@ on:
 
 jobs:
   buildAndPublish:
-    runs-on: alpine/git
+    runs-on: ubuntu-latest
     env:
       working-directory: ./
     strategy:
