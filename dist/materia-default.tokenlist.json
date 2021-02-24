@@ -158,12 +158,20 @@
             "decimals": 18,
             "chainId": 3,
             "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_DAI.svg"
+        },
+        {
+            "address": "0xf2B1F54d233F265d396d678D4E293E1B668a2433",
+            "name": "dfohub item",
+            "symbol": "ibuidl",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7b123f53421b1bF8533339BFBdc7C98aA94163db/logo.png"
         }
     ],
     "version": {
-        "major": 5,
+        "major": 6,
         "minor": 0,
         "patch": 0
     },
-    "timestamp": "2021-02-24T10:55:16.566Z"
+    "timestamp": "2021-02-24T22:18:42.094Z"
 }
