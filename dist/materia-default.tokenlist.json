@@ -26,6 +26,14 @@
             "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_USDC.svg"
         },
         {
+            "address": "0x1073A6C48B80ebf714200FCB6d6d2dc57bFdad09",
+            "name": "ethart item",
+            "symbol": "iarte",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x34612903Db071e888a4dADcaA416d3EE263a87b9/logo.png"
+        },
+        {
             "address": "0x1D4f770032A551D70c240D937a8e8cf19Ee37E7d",
             "name": "Materia",
             "symbol": "GIL",
@@ -160,6 +168,14 @@
             "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_DAI.svg"
         },
         {
+            "address": "0xd629724798F1F7FB3413FD5AcB2a7710e32A6c0b",
+            "name": "UniFi item",
+            "symbol": "iUniFi",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5/logo.png"
+        },
+        {
             "address": "0xf2B1F54d233F265d396d678D4E293E1B668a2433",
             "name": "dfohub item",
             "symbol": "ibuidl",
@@ -169,9 +185,9 @@
         }
     ],
     "version": {
-        "major": 6,
+        "major": 7,
         "minor": 0,
         "patch": 0
     },
-    "timestamp": "2021-02-24T22:18:42.094Z"
+    "timestamp": "2021-02-24T23:44:07.864Z"
 }
