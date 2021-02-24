@@ -65,6 +65,14 @@
             "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
         },
         {
+            "address": "0x4FA2d28cEc65f86A843Bd1806Dc88930554b6756",
+            "name": "Wrapped BTC item",
+            "symbol": "iWBTC",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png"
+        },
+        {
             "address": "0x4d69a1d482ff9b89600c1DD9e535538957Cd8E29",
             "name": "Dai Stablecoin i",
             "symbol": "iDAI",
@@ -153,9 +161,9 @@
         }
     ],
     "version": {
-        "major": 4,
+        "major": 5,
         "minor": 0,
         "patch": 0
     },
-    "timestamp": "2021-02-23T22:46:12.287Z"
+    "timestamp": "2021-02-24T10:55:16.566Z"
 }
