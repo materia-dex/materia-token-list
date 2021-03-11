@@ -121,6 +121,14 @@
             "logoURI": "https://assets.coingecko.com/coins/images/11131/large/buidllogo.png?1599577041"
         },
         {
+            "address": "0x9BdA4e3FDCb255052F663E85443bB398661221A6",
+            "name": "Strudel BTC item",
+            "symbol": "iVBTC",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
+        },
+        {
             "address": "0x9e78b8274e1d6a76a0dbbf90418894df27cbceb5",
             "name": "Covenants",
             "symbol": "UNIFI",
@@ -193,9 +201,9 @@
         }
     ],
     "version": {
-        "major": 8,
+        "major": 9,
         "minor": 0,
         "patch": 0
     },
-    "timestamp": "2021-03-11T20:42:31.168Z"
+    "timestamp": "2021-03-11T20:50:48.371Z"
 }
