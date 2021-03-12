@@ -97,6 +97,14 @@
             "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_DAI.svg"
         },
         {
+            "address": "0x765d466b3023F3c75fA0eE234061838f8c2bF01C",
+            "name": "Strudel Finance",
+            "symbol": "iTRDL",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
+        },
+        {
             "address": "0x7C974104DF9dd7fb91205ab3D66d15AFf1049DE8",
             "name": "Wrapped USD",
             "symbol": "WUSD",
@@ -201,9 +209,9 @@
         }
     ],
     "version": {
-        "major": 9,
+        "major": 10,
         "minor": 0,
         "patch": 0
     },
-    "timestamp": "2021-03-11T20:50:48.371Z"
+    "timestamp": "2021-03-12T23:46:12.623Z"
 }
