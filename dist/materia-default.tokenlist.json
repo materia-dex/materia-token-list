@@ -129,6 +129,14 @@
             "logoURI": "https://assets.coingecko.com/coins/images/11131/large/buidllogo.png?1599577041"
         },
         {
+            "address": "0x92fE9D62E905E25c599fB99BfC0C362d7FD145bA",
+            "name": "cVaultfinanceF",
+            "symbol": "iFANNY",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
+        },
+        {
             "address": "0x9BdA4e3FDCb255052F663E85443bB398661221A6",
             "name": "Strudel BTC item",
             "symbol": "iVBTC",
@@ -217,9 +225,9 @@
         }
     ],
     "version": {
-        "major": 11,
+        "major": 12,
         "minor": 0,
         "patch": 0
     },
-    "timestamp": "2021-03-27T01:00:20.472Z"
+    "timestamp": "2021-03-28T07:53:33.981Z"
 }
