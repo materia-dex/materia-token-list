@@ -230,12 +230,20 @@
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7b123f53421b1bF8533339BFBdc7C98aA94163db/logo.png"
+        },
+        {
+            "address": "0xf4D509a76a684F8a095bdcC99B3a466CFbD12918",
+            "name": "Penguin Party Fi",
+            "symbol": "i",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
         }
     ],
     "version": {
-        "major": 13,
+        "major": 14,
         "minor": 0,
         "patch": 0
     },
-    "timestamp": "2021-04-04T05:26:49.793Z"
+    "timestamp": "2021-04-16T07:44:10.769Z"
 }
