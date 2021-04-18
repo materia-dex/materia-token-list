@@ -184,6 +184,14 @@
             "chainId": 3
         },
         {
+            "address": "0xD48bdc3bEA06129B3358be3c0d740bcA76c0eCdd",
+            "name": "Olympus item",
+            "symbol": "iOHM",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/materia-dex/materia-token-list/master/resources/W20-item.png"
+        },
+        {
             "address": "0xE51a7641A2D62119458B38e074367D9bFA8a3916",
             "name": "Materia item",
             "symbol": "iGIL",
@@ -241,9 +249,9 @@
         }
     ],
     "version": {
-        "major": 14,
+        "major": 15,
         "minor": 0,
         "patch": 0
     },
-    "timestamp": "2021-04-16T07:44:10.769Z"
+    "timestamp": "2021-04-18T23:46:43.137Z"
 }
