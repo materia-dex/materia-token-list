@@ -129,6 +129,14 @@
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
         },
         {
+            "address": "0x7a4F9771Bdb463cf03f0Aa05F944028Ba430e00b",
+            "name": "CircuitsOfValue",
+            "symbol": "iCoval",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x3D658390460295FB963f54dC0899cfb1c30776Df/logo.png"
+        },
+        {
             "address": "0x7b123f53421b1bf8533339bfbdc7c98aa94163db",
             "name": "dfohub",
             "symbol": "BUIDL",
@@ -249,9 +257,9 @@
         }
     ],
     "version": {
-        "major": 15,
+        "major": 16,
         "minor": 0,
         "patch": 0
     },
-    "timestamp": "2021-04-18T23:46:43.137Z"
+    "timestamp": "2021-04-26T11:43:43.700Z"
 }
