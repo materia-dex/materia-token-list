@@ -240,6 +240,14 @@
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5/logo.png"
         },
         {
+            "address": "0xe7b92f2d2D7990CDe9C75a669A9131241E45c8B7",
+            "name": "Gold Tether item",
+            "symbol": "iXAUt",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4922a015c4407F87432B179bb209e125432E4a2A/logo.png"
+        },
+        {
             "address": "0xf214cDf21Da466b24D59ED86eF5fD2534590A52B",
             "name": "EGO Album Token",
             "symbol": "iEGO",
@@ -265,9 +273,9 @@
         }
     ],
     "version": {
-        "major": 17,
+        "major": 18,
         "minor": 0,
         "patch": 0
     },
-    "timestamp": "2021-04-28T05:25:37.210Z"
+    "timestamp": "2021-05-07T07:52:03.110Z"
 }
